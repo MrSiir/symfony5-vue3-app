@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Los ficheros que existen se sirven directamente
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+# vue-front
+RewriteRule ^ index.php [QSA,L]
+</IfModule>

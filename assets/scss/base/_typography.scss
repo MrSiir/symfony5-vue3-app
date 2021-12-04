@@ -1,0 +1,15 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  font-family: $font-primary;
+  color: $text-color;
+}
+
+.ff-secondary {
+  font-family: $font-secondary;
+}
+
+.text-justified {
+  text-align: justify;
+}

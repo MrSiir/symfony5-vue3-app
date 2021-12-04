@@ -1,0 +1,16 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+body {
+    background-color: $brand-color;
+}
+
+a {
+    text-decoration: underline;
+    color: inherit;
+    @include on-event {
+        color: inherit;
+        text-decoration: none;
+    }
+}

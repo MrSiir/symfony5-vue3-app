@@ -1,0 +1,12 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.btn {
+    font-family: $font-secondary;
+    font-weight: 700;
+    font-size: 14px;
+    &:focus {
+        box-shadow: 0 0 0 0.25rem rgba($white, 0.25);
+    }
+}

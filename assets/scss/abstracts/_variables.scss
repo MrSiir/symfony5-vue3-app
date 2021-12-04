@@ -1,0 +1,33 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Regular font family
+/// @type List
+$font-primary: 'Open Sans', serif !default;
+
+/// Secondary font family
+/// @type List
+$font-secondary: 'Open Sans', sans-serif !default;
+
+/// Red
+/// @type Color
+$red: rgb(162, 20, 39) !default;
+
+/// White
+/// @type Color
+$white: rgb(255, 255, 255) !default;
+
+/// Copy text color
+/// @type Color
+$text-color: $white !default;
+
+/// Main brand color
+/// @type Color
+$brand-color: rgb(99, 184, 212) !default;
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '/assets/' !default;
